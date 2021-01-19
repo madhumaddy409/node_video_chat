@@ -4,8 +4,7 @@ const myPeer = new Peer(undefined, {
   // host: '/',
   // port: '3001'
   host: '/',
-  port: 3001,
-  path: '/testvideochatdemo'
+  port: 3001
 })
 const myVideo = document.createElement('video')
 myVideo.muted = true
