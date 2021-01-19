@@ -25,7 +25,7 @@ io.on('connection', socket => {
     })
   })
 })
-const port = 3005
+const port=Number(process.env.PORT || 3000);
 server.listen(port,()=>
 {
   console.log(`server is litup on ${port} `)
