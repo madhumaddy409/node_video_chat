@@ -4,7 +4,7 @@ const myPeer = new Peer(undefined, {
   // host: '/',
   // port: '3001'
   secure: true, 
-  host: '/', 
+  host: 'testvideochatdemo.herokuapp.com', 
   port: 3001,
 })
 const myVideo = document.createElement('video')
