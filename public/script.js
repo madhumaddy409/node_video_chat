@@ -3,7 +3,7 @@ const videoGrid = document.getElementById('video-grid')
 const myPeer = new Peer(undefined, {
   // host: '/',
   // port: '3001'
-  host: '/',
+  host: '/localhost',
   port: 9000,
   path: '/testvideochatdemo'
 })
