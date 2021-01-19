@@ -5,7 +5,7 @@ const myPeer = new Peer(undefined, {
   // port: '3001'
   secure: true, 
   host: '/', 
-  port: 301,
+  port: 3001,
 })
 const myVideo = document.createElement('video')
 myVideo.muted = true
